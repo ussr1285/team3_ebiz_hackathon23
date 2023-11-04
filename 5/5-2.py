@@ -1,5 +1,3 @@
-5-2
-
 for i in range(7): #층에 따라 range를 맞춤
     if 8-(2*i) >= 2: #stars의 개수가 2이상이면 첫번째 식
         spaces = ' ' * (i)

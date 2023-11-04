@@ -1,4 +1,3 @@
-
 def check_available(string):
     for raw_char in string:
         char = ord(raw_char)

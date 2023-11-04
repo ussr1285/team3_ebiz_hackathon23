@@ -2,8 +2,8 @@
 def check_available(string):
     for raw_char in string:
         char = ord(raw_char)
-        if(not(char == ',' or char == '~' or (char <= 97 and char >= 122))):
-            print(raw_char)
+        if(not(char == ',' or char == '~' or (char >= 97 and char <= 122))):
+            print(raw_char, char)
             return(False)
 
 def spanish_len(string):

@@ -18,9 +18,9 @@ def spanish_len(string):
     # print(string)
     return(len(string))
 
-user_input = input("Plesae enter spanish: ")
+user_input = input()
 value = spanish_len(user_input)
 if(value == False):
     print("입력은 영어 소문자와 , . ~ 로만 사용해주세요.")
 else:
-    print("스페인어 길이:", value)
+    print(value)

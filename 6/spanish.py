@@ -2,7 +2,7 @@
 def check_available(string):
     for raw_char in string:
         char = ord(raw_char)
-        if(not(raw_char == ',' or raw_char == '~' or (char >= 97 and char <= 122))):
+        if(not(raw_char == ',' or raw_char == '.' or raw_char == '~' or (char >= 97 and char <= 122))):
             # print(raw_char, char)
             return(False)
 
